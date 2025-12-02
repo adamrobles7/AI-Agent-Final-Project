@@ -11,7 +11,7 @@ import Foundation
 class OpenAIService: ObservableObject {
     
     // MARK: - Configuration
-    private let apiKey = "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"
+    private let apiKey = "YOUR_OPENAI_API_KEY"
     private let apiURL = URL(string: "https://api.openai.com/v1/chat/completions")!
     private let model = "gpt-4o-mini" // or "gpt-4o" for better quality
     
